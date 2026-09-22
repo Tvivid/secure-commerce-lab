@@ -1,0 +1,32 @@
+# Maven build output
+target/
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+src/main/resources/application-local.properties
+src/main/resources/application-local.yml
+src/main/resources/application-secret*.properties
+src/main/resources/application-secret*.yml
+src/main/resources/application-*-secret.properties
+src/main/resources/application-*-secret.yml
+
+# Operating system files
+.DS_Store
+Thumbs.db
